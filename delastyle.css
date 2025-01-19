@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;  
+}
+
+body{
+  background-color: rgb(236, 243, 243);
+  height: -2000px;
+}
+
+body .background-image img{
+  padding-left: 0px;
+  padding-right: -20px;
+  margin-bottom: 100px;
+  height: 750px;
+  width: 1530px;
+  padding-bottom: -300px;
+  padding-top: -50px;
+  display: flex;
+}
+
+.logo{
+  margin-left: 530px;
+  margin-top: -750px;
+  margin-bottom: 250px;
+  animation: fadeIn 3s ease-out;
+  display: flex;
+}
+
+
+.Social {
+  align-items: center;
+  margin-left: 690px;
+  padding: 40px 0;
+  margin-top: 220px;
+  margin-bottom: 200px;
+  animation:animation1 1s ease-out ;
+}
+
+.Social a{
+  text-decoration: none;
+}
+
+.Social i{
+  color: rgb(235, 229, 229);
+  margin-bottom: 0rem;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.Social :hover{
+  color: rgb(0, 132, 255);
+  transition:all 0.3s;
+}
+ .Slogan{
+  margin-left: 450px;
+  margin-top: -1100px;
+  animation: fadeIn2 3s ease-out;  
+ }
+
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn2 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 2;
+  }
+}
+
+@keyframes animation1 {
+  0%{
+    transform: translateY(500px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+
+/*tablet*/
+@media (max-width : 900px){
+  body .background-image img{
+    height: 750px;
+    width:1030px;
+    padding-left: 0px;
+    padding-right: -20px;
+  }
+  
+  .logo{
+   margin-left: 50px;
+   margin-top: -800px;
+   display: flex;
+  }
+
+  .Slogan{
+    margin-left: 20px;
+  }
+  .Slogan img{
+    max-width: 590px;
+    margin-top: 30px;
+  }
+  .Social{
+    align-items: center;
+    margin-top: 220px;
+    margin-left: 230px;
+    size: 200px;
+  }
+  
+  .Social i{
+    color: rgb(239, 244, 244);
+  }
+
+  .Social :hover{
+    color: aqua;
+    transition: all 2s;
+  }
+}
+
+/*Mobile*/
+@media(max-width : 600px){
+  .logo{
+    margin-left: 40px;
+    margin-top: -690px;
+  }
+   .logo img{
+    width: 300px;
+    height: 300px;
+   }
+
+  .Slogan{
+    margin-left: 0px;
+    padding-top: 50px;
+  }
+
+  .Slogan img{
+    height: 670px;
+    width: 370px;
+  }
+
+  .Social{
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 200px;
+  }
+}
+
+
+
+
