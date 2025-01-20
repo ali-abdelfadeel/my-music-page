@@ -131,7 +131,7 @@ body .background-image img{
 /*Mobile*/
 @media(max-width : 600px){
   .logo{
-    margin-left: 40px;
+    margin-left: 60px;
     margin-top: -690px;
   }
    .logo img{
@@ -140,7 +140,6 @@ body .background-image img{
    }
 
   .Slogan{
-    margin-left: 0px;
     padding-top: 50px;
   }
 
@@ -152,7 +151,7 @@ body .background-image img{
   .Social{
     align-items: center;
     margin-left: 100px;
-    margin-top: 200px;
+    margin-top: 190px;
   }
 }
 
